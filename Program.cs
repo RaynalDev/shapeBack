@@ -14,22 +14,13 @@ builder.Services.AddCors(options =>
     });
 });
 
-Console.WriteLine("Configuring database...");
-
-var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
-Console.WriteLine($"ConnectionString: {connectionString}");
 
 // Configure le DbContext avec SQL Server
 builder.Services.AddDbContext<ShapesTestContext>(options =>
     options.UseSqlServer());
 
-//builder.Services.AddDbContext<ShapesTestContext>(options =>
- //   options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 // Add services to the container.
-
-
-
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 

@@ -152,3 +152,4 @@
 /Users/Malik/DEVS/portrait/obj/Debug/net9.0/portrait.pdb
 /Users/Malik/DEVS/portrait/obj/Debug/net9.0/portrait.genruntimeconfig.cache
 /Users/Malik/DEVS/portrait/obj/Debug/net9.0/ref/portrait.dll
+/Users/Malik/DEVS/portrait/obj/Debug/net9.0/portrait.sourcelink.json
